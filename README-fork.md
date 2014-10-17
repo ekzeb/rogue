@@ -2,13 +2,13 @@
 
 ### without rogue-spindle, since there is no thrift against scala 2.11
 
- 1.first clone and publishLocal rogue-lift 2.11
- $ git clone https://github.com/ekzeb/rogue-field.git
- $ git checkout v2.2.1-2.11.2
- $ ./sbt
+ 1. First clone and publishLocal rogue-lift 2.11  
+ $ git clone https://github.com/ekzeb/rogue-field.git  
+ $ git checkout v2.2.1-2.11.2  
+ $ ./sbt  
  sbt:> publishLocal
- 2. clone this fork
- $ git checkout v3.0.0-beta7a-2.11
- $ ./sbt
- sbt:> set lift211Version := (2.6-RC1|3.0-X)
- sbt:> publishLocal
+ 2. Clone this fork  
+ $ git checkout v3.0.0-beta7a-2.11  
+ $ ./sbt  
+ sbt:> set lift211Version := (2.6-RC1|3.0-X)  
+ sbt:> publishLocal  
