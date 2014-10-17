@@ -1,6 +1,6 @@
 # Rogue for scala 2.11, lift 2.6, 3.0
 
-### without rogue-spindle, since there is no thrift against scala 2.11
+### without rogue-spindle, since there is no finagle-thrift against scala 2.11
 
  1. First clone and publishLocal rogue-lift 2.11  
  $ git clone https://github.com/ekzeb/rogue-field.git  
